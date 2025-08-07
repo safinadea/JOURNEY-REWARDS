@@ -1,0 +1,45 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #3b82f6;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+#main-content {
+  padding: 20px;
+}
+
+#points-dashboard, #scan-section, #explore-section {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
