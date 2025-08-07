@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loyalty Program MVP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Loyalty Program</h1>
+  </header>
+
+  <div id="main-content">
+    <section id="points-dashboard">
+      <h2>Your Points: <span id="points">10000</span></h2>
+      <button onclick="addPoints()">Earn Points</button>
+    </section>
+
+    <section id="scan-section">
+      <h3>Scan Receipt</h3>
+      <input type="number" id="transactionAmount" placeholder="Enter amount (Rp)">
+      <button onclick="convertToPoints()">Convert to Points</button>
+    </section>
+
+    <section id="explore-section">
+      <h3>Explore Destinations</h3>
+      <ul id="destination-list">
+        <!-- Destinations will be loaded here -->
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Loyalty Program</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
